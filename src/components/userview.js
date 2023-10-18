@@ -199,8 +199,8 @@ function UserView({ state, saveState }) { // Defining the 'UserView' component
           <div  className="nft-card" key={index}>
             <p>Token URI: {nft.url}</p>
             
-            <img src={`https://ipfs.io/ipfs/${ipfsHash}`} alt="NFT" style={{ maxWidth: '300px', maxHeight: '300px' }} />
-            <p className="nft-price"> Price: {"1 ETH"}</p>
+            <img src={`https://ipfs.io/ipfs/${nft.url}`} alt="NFT" style={{ maxWidth: '300px', maxHeight: '300px' }} />
+            <p className="nft-price"> Price: {"nft.price"}</p>
             <button className="buy-button" onClick={() => buyNFT(index)}>Buy</button>
           </div>
         ))}

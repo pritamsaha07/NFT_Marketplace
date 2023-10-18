@@ -1,0 +1,35 @@
+
+
+.container {
+  background-color: yellow;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.list-section {
+  background-color: yellow;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.nft-card {
+  background-color: yellow;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.buy-button {
+  background-color: black;
+  color: yellow;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+
+
